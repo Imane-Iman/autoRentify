@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+    -fx-background-image: url("greyBackground.jfif");
+}
+
+.button {
+    -fx-background-color: linear-gradient(#868f96, #596164); 
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#798186, #4e5557); 
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 10, 0.0, 0, 2);
+}
+
+.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #5a5f65; 
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0.0, 0, 1);
+}
+

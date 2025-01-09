@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@application1.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.controller.SampleController">
+   <children>
+      <AnchorPane layoutX="-123.0" layoutY="-134.0" prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="button1" layoutX="289.0" layoutY="240.0" mnemonicParsing="false" onAction="#switchToScene2" text="Consulter les réservations" />
+            <Button fx:id="buuton2" layoutX="297.0" layoutY="288.0" mnemonicParsing="false" onAction="#switchToScene3" text="Consulter les véhicules" />
+            <Button fx:id="buuton3" layoutX="306.0" layoutY="329.0" mnemonicParsing="false" onAction="#switchToScene4" text="Ajouter un véhicule" />
+            <Button fx:id="buuton4" layoutX="298.0" layoutY="373.0" mnemonicParsing="false" onAction="#switchToScene5" text="Supprimer un véhicule" />
+            <Button fx:id="buuton5" layoutX="300.0" layoutY="424.0" mnemonicParsing="false" onAction="#switchToScene6" text="Annuler la réservation" />
+            <Label layoutX="289.0" layoutY="176.0" text="Interface administrateur">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="53.0" fitWidth="61.0" layoutX="532.0" layoutY="134.0">
+               <image>
+                  <Image url="@grey_user(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
